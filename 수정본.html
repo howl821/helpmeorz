@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online_Covern</title>
+    <style type="text/css">
+        *{margin: 0; padding: 0;}
+        #symbol{vertical-align: middle; color: white; margin-top: 10px;}
+        #logo{vertical-align: middle; margin-top: 20px;}
+    
+        .wrap{
+            display: grid;
+            grid-template-columns: 20% 80%;
+            grid-template-rows: 30% 90% 30%;
+            max-width: 1500px;
+        }
+        .grid1{
+            grid-column-start: 1; grid-column-end: 3;
+            background: black;
+            padding-left: 40px;
+        
+        }
+        .grid2{
+            grid-column-start: 1; grid-column-end: 2;
+            background: white;
+            padding-left: 40px;
+        }
+        .grid3{
+            grid-column-start: 2; grid-column-end: 3;
+            background: lightsalmon;
+            padding-left: 20px;
+        }
+        .grid4{
+            grid-column-start: 1; grid-column-end: 3;
+            background: aliceblue;
+            padding-up: 200px;
+            padding-left: 40px;
+        }
+        .header{
+            height: 30px;
+            line-height: 30px;
+            font-size: 40px;
+            text-align: left;
+
+        }
+
+        .moon_list{
+            list-style-type: none;
+            font-size: 24px;
+            word-break: keep-all;
+            word-wrap: break-word;
+            list-style-image: url(bullet_moon.jpg);
+        }
+        .grid2 > .main_list{list-style-type: none;}
+        li a{list-style-type: none;}
+       
+        .innerlist{list-style-type: none;}
+
+        ul > li > a{
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+   <div class="wrap">
+    <div class="grid1">
+        <p class="header">
+        <img id="symbol" src="newpentacle.jpg" alt="위칸 심볼" width="80px">
+        <img id="logo" src="13moons.jpg" alt="로고">
+    
+        </p>
+    </div>
+    <div class="grid2">
+        <ul class="moon_list">
+            <li class="main_list"><a href="">메뉴1</a>
+                <ul>
+                    <li><a href="">메뉴1-1</a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                </ul>
+            
+               
+            </li>
+            <li class="main_list">Candles, Incense & Oils</li>
+            <li class="main_list">Home, Clothing & Jewelry</li>
+            <li class="main_list">Spells</li>
+            <li class="main_list">Practices</li>
+        </ul>
+    </div>
+    <div class="grid3">
+        <h2>About Us</h3>
+        <h4>만나서 반가워요!</h4>
+        <P>
+            13 moons는 다양한 제품을 판매함으로써 많은 마녀들에게 서비스를 제공하기 위해 노력하고 있습니다. 이곳에서는 초보자에서부터 숙련자까지, 사용자에게 필요한 마법 용품을 찾을 수 있습니다.
+        </P>
+        <h4>1980년대, 마법이 시작되다</h4>
+        <p>
+            모험에 대한 사랑은 Sandy와 Jeff을 함께하도록 만들었죠. 페이건 서적, 주술 도구, 힐링, 수작업 도구와 허브 정원을 가꾸기 시작했죠. 이 열정은 마법에 관한 커뮤니티를 만드는 것으로 이어졌습니다.
+        </p>
+        <h4>1990년대, 13 moons의 시작</h4>
+        <p>
+            처음에 우리는 바위에 소원과 바램을 담아 바위 위에 룬 모양을 그리곤 했답니다.
+            별 기대 없이 시도했던 일들이었지만 그 소원과 바램들은 실제로 이루어졌죠. 그리고 그것이 현재의 13moons라고 말할 수 있습니다.
+            저렴하고 질 좋은 제단 용품들을 필요로 하는 모든 사용자들이 우리에게 새로운 모험을 선사했지요.
+        </p>
+        <h4>2000년대, CRAFTERS 가입</h4>
+        <p>
+            지팡이, 의복, 원석, 촛불, 허브, 조각상 등을 제공하는 13moons에 여러 공예가와 예술가들이 함께했습니다! 지난 몇 년 동안 13개의 달은 전 세계로 커져갔죠.
+        </p>
+    </div>
+
+    <div class="grid4">footer</div>
+   </div>
+</body>
+</html>
